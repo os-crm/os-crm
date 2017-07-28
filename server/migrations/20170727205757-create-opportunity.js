@@ -17,6 +17,9 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      accountId: {
+        type: Sequelize.INTEGER,
       }
     }),
   down: (queryInterface, Sequelize) => queryInterface.dropTable('Opportunities'),
