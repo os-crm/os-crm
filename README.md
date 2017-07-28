@@ -1,4 +1,5 @@
-## ![osCRM Logo](./osCRM-logo.png) The Open Source CRM
+![osCRM Logo](./osCRM-logo.png)
+## The Open Source CRM
 ====================
 
 ### Why pay so much for such a bad interface?
