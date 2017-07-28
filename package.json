@@ -1,0 +1,29 @@
+{
+  "name": "os-crm",
+  "version": "0.1.0",
+  "description": "Open Source CRM",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/os-crm/os-crm.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Duskey <me@nickduskey.com>",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.0.2",
+    "pg-hstore": "^2.3.2",
+    "restify": "^5.0.1",
+    "restify-validator": "^0.3.1",
+    "sequelize": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
